@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🪪 FaceVerify
+#  FaceVerify
 
-**Real-time face verification system using AI — built with Flask & DeepFace**
+**Real-time face verification system using AI built with Flask & DeepFace**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-2.x-black?style=flat-square&logo=flask)

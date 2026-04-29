@@ -223,8 +223,3 @@ DeepFace downloads FaceNet model weights (~90 MB) on first use. Subsequent runs 
 
 ---
 
-<div align="center">
-
-Made with ❤️ using Flask + DeepFace
-
-</div>

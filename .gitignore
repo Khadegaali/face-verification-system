@@ -1,0 +1,31 @@
+
+#  PRIVACY 
+
+uploads/
+
+#  Database
+face_verification.db
+*.db
+*.sqlite
+*.sqlite3
+
+#  Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+
+venv/
+env/
+.venv/
+.env
+.env.*
+*.secret
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+.deepface/

@@ -8,7 +8,7 @@
 ![Flask](https://img.shields.io/badge/Flask-2.x-black?style=flat-square&logo=flask)
 ![DeepFace](https://img.shields.io/badge/DeepFace-Facenet-orange?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Camera-green?style=flat-square&logo=opencv)
-![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
+
 
 > Register with your ID photo, then verify your identity live through your webcam in seconds.
 
@@ -16,18 +16,18 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📋 **User Registration** — Upload your name, email, and an ID photo
-- 🎥 **Live Camera Verification** — Real-time face matching via webcam
-- 🧠 **AI-Powered Matching** — Uses FaceNet embeddings via DeepFace
-- 📊 **Confidence Score** — Returns similarity distance for every verification
-- 🗄️ **SQLite Storage** — Lightweight database, zero configuration
-- 🔒 **Privacy First** — All uploaded photos are excluded from version control
+- **User Registration** — Upload your name, email, and an ID photo
+-  **Live Camera Verification** — Real-time face matching via webcam
+-  **AI-Powered Matching** — Uses FaceNet embeddings via DeepFace
+-  **Confidence Score** — Returns similarity distance for every verification
+-  **SQLite Storage** — Lightweight database, zero configuration
+-  **Privacy First** — All uploaded photos are excluded from version control
 
 ---
 
-## 🖥️ Demo Flow
+##  Demo Flow
 
 ```
 Register (name + email + ID photo)
@@ -41,7 +41,7 @@ Result: REAL ✅  or  FAKE ❌  with distance score
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 
@@ -102,7 +102,7 @@ pip install flask deepface opencv-python pillow numpy werkzeug tf-keras
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 face-verification-system/
@@ -115,7 +115,7 @@ face-verification-system/
 │   ├── register.html       # Registration page
 │   └── verify.html         # Verification page
 │
-└── uploads/                # ⚠️ Gitignored — stores user photos
+└── uploads/                #  Gitignored — stores user photos
     └── (not tracked)
 ```
 
@@ -178,7 +178,7 @@ THRESHOLD = 0.50  # Lower = stricter
 
 ---
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - The `uploads/` folder is **gitignored** — no user photos are ever committed
 - The `face_verification.db` database is **gitignored** — no personal data is tracked
@@ -201,7 +201,7 @@ THRESHOLD = 0.50  # Lower = stricter
 
 ---
 
-## 🧪 Troubleshooting
+##  Troubleshooting
 
 **Image not showing on verify page?**
 Make sure you're running the latest `system.py` — earlier versions stored the full filesystem path instead of just the filename.
@@ -220,9 +220,6 @@ DeepFace downloads FaceNet model weights (~90 MB) on first use. Subsequent runs 
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 ---
 
